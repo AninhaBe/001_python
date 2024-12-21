@@ -1,6 +1,10 @@
+# Print + input
 nome = input("Digite seu nome: ")
 print(f'{nome} tem {len(nome)} caracteres')
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+# recebendo entradas
 def soma(a, b):
    print(a + b) 
 
@@ -10,7 +14,9 @@ a = int(input("Digite um número: "))
 b = int(input("Digite o utro número: "))
 print("Resultado = " + str(a + b))
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------#
 
+# Cálculo de Bônus com Entrada do Usuário
 # 1) Solicita ao usuário que digite seu nome
 nome = input("Digite seu nome: ")
 # 2) Solicita ao usuário que digite o valor do seu salário
